@@ -24,12 +24,20 @@ AV.init({
   appKey: APP_KEY
 });
 
-var TestObject = AV.Object.extend('TestObject');
-var testObject = new TestObject();
-testObject.save({
-  words: 'Hello World!'
+// var TestObject = AV.Object.extend('TestObject');
+// var testObject = new TestObject();
+// testObject.save({
+//   words: 'Hello World!'
+// }).then(function(object) {
+//   console.log('LeanCloud Rocks!');
+// })
+
+var UserObject = AV.Object.extend('UserObject');
+var userObject = new UserObject();
+userObject.save({
+  username: 'zhangsan'
 }).then(function(object) {
-  console.log('LeanCloud Rocks!');
+  console.log('username success!');
 })
 </script>
 </body>
