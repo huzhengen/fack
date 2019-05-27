@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+
+
+
+
+<!-- 存储服务 -->
+<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js"></script>
+<!-- 即时通讯服务 -->
+<script src="//cdn.jsdelivr.net/npm/leancloud-realtime@4.3.0/dist/realtime.browser.min.js"></script>
+
+<script>
+var APP_ID = 'MErdpntlkYWY5VekV01S1JnH-gzGzoHsz';
+var APP_KEY = 'QsrJtWy8nHKTL6OH7FJ28M0L';
+
+AV.init({
+  appId: APP_ID,
+  appKey: APP_KEY
+});
+
+var User = AV.Object.extend('User');
+var user = new User();
+user.save({
+  name: 'zhangsan'
+}).then(function(object) {
+  console.log('user success!');
+})
+</script>
+</body>
+</html>
