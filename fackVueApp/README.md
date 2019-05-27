@@ -1,5 +1,7 @@
 # vue做一个类似掘金APP
 
+https://github.com/FrankFang/fack/issues/15
+
 ### 任务一：学会 GitHub Pages
 
 huzhengen.github.io
