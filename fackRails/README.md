@@ -14,3 +14,7 @@ https://github.com/FrankFang/fack/issues/12
 3、使用 RubyMine 开发，实在安装不成功再使用 VSCode 备选
 请看到文档中的「删除评论」
 ```
+
+Ruby中文文档：https://www.ruby-lang.org/zh_cn/documentation/
+
+Ruby英文文档：https://www.ruby-lang.org/en/documentation/
