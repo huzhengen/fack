@@ -18,3 +18,7 @@ https://github.com/FrankFang/fack/issues/12
 Ruby中文文档：https://www.ruby-lang.org/zh_cn/documentation/
 
 Ruby英文文档：https://www.ruby-lang.org/en/documentation/
+
+RVM实用指南：https://ruby-china.org/wiki/rvm-guide
+
+启动，用IP访问：bin/rails server -b 111.111.111.111(IP)
